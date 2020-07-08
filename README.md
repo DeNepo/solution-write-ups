@@ -10,7 +10,9 @@ The main objective of these exercises is practicing how to [Learn from Code](htt
 
 There are many strategies for creating the same behavior, and there are many ways to implement the same strategy.
 
-By studying multiple solutions to the same challenge, written by more experienced programmers, you will learn how to approach and solve coding challenges on your own.
+By studying multiple solutions to the same kata, written by more experienced programmers, you will learn how to approach and solve coding challenges on your own.
+
+> You _should not_ include your own code in the writeups.  Only other people's solutions!
 
 ### Index
 
@@ -30,7 +32,7 @@ By studying multiple solutions to the same challenge, written by more experience
 
 ## Codewars
 
-These exercises are based on [Codewars](https://www.codewars.com/), a website with progressive programming challenges in many different languages.  You can learn more about Codewars by reading [the Codewars Wiki](https://github.com/codewars/codewars.com/wiki/).
+These exercises are based on [Codewars](https://www.codewars.com/), a website with progressive programming challenges starting at **8 kyu** (easiest) all the way upt to **1 kyu** (the hardest).  You can learn more about Codewars by reading [the Codewars Wiki](https://github.com/codewars/codewars.com/wiki/).
 
 Normally people log into Codewars to solve [Katas](https://github.com/codewars/codewars.com/wiki/Kata) and progress through the ranks (Kyus).  You'll be going there to forfeit challenges and study other people's solutions.
 
@@ -74,7 +76,7 @@ When you find someone's work that's especially helpful go ahead and give them a 
 
 ### Sharing
 
-Did you find a fun challenge with many good solutions to study? Do you have a great trick for studying Codewars? Is there a resource you found online that helped you?
+Did you find a fun kata with many good solutions to study? Do you have a great trick for studying Codewars? Is there a resource you found online that helped you?
 
 Share it!  Open an issue in this repository and label it `helpful`.
 
@@ -84,13 +86,15 @@ Share it!  Open an issue in this repository and label it `helpful`.
 
 ## Writeups
 
-The end goal of these exercises is to write a markdown file analyzing different people's solutions to the same programming challenges.  Along the way you will learn many important "soft skills" including: how to read and write documentation, how to understand source code, how to interpret test cases, and how to explain your code to others.
+The end goal of these exercises is to write a markdown file analyzing _other people's_ solutions to a programming challenges.  Along the way you will learn many important "soft skills" including: how to read and write documentation, how to understand source code, how to interpret test cases, and how to explain your code to others.
+
+For each kata you study create a _new_ markdown file in this repository using [the template](./writeup-template.md).  Place it in the folder named after that kata's kyu level, and name the file after the kata.  Take a look at [the example writeup](./8-kyu/quarter-of-the-year.md) to see what yours should look like.
 
 ### Sections
 
 Your writeups should have these sections:
 
-- **Motivation**: (just under the title) Describe the challenge in plain english and give an idea of when/why/how this function might be useful in real life.
+- **Motivation**: (just under the title) Describe the kata in plain english and give an idea of when/why/how this function might be useful in real life.
 - **Syntax**: What does someone need to know to use the function? This includes the types of all _parameters_, and the _return value_.
 - **Examples**: Write a few use cases. These show how the function could be used in a real program.  Practice finding interest [edge cases](https://www.geeksforgeeks.org/dont-forget-edge-cases/), it's good for you ;)
 - **User Solutions**: Analyze the solutions written by (at least) 2 different users, include:
