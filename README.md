@@ -2,6 +2,10 @@
 
 What?! Coding exercises, without writing any code?! 100%
 
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+>
+> - Martin Fowler
+
 The main objective of these exercises is practicing how to [Learn from Code](https://study.hackyourfuture.be/learning/learning-from-code), to be given source code you don't understand and to study it until you could write it yourself.  Keep these three words in mind as you complete your writeups:
 
 1. _Behavior_: What does a function do? What are it's arguments and it's return value? How could you use it in a program?
@@ -27,6 +31,7 @@ By studying multiple solutions to the same kata, written by more experienced pro
   - [Sections](#sections)
   - [Example](#example)
   - [Template](#template)
+- [Helpful Links](#helpful-links)
 
 ---
 
@@ -111,3 +116,19 @@ There's an [example writeup to study](./8-kyu/quarter-of-the-year.md) in the **8
 ### Template
 
 There is also [a template writeup](./writeup-template.md) you can use to get started.  It has all the required sections along with a description of what goes in each section. When you copy over the markdown to a new file, delete the explanations and fill in the sections with your own analyses.
+
+---
+
+## Helpful Links
+
+- [Learn to read the source, Luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/) (article)
+- [How to quickly and effectively read other people's code](https://selftaughtcoders.com/how-to-quickly-and-effectively-read-other-peoples-code/) (article)
+- [How to understand someone else's code?](https://www.youtube.com/watch?v=tON6F_yZb-E) (video)
+- [I can't read other people's code](https://www.reddit.com/r/learnprogramming/comments/3x38dx/i_cant_read_other_peoples_code/) (reddit)
+- [Why I love reading other people's code and you should too](https://skorks.com/2010/05/why-i-love-reading-other-peoples-code-and-you-should-too/) (article)
+- [How to read code without ripping your hair out](https://medium.com/launch-school/how-to-read-source-code-without-ripping-your-hair-out-e066472bbe8d) (article)
+- [Read other people's code](https://www.lavieencode.net/blog/coding-101/read-other-peoples-code/) (article)
+- [Effective mental models for code and systems](https://medium.com/@copyconstruct/effective-mental-models-for-code-and-systems-7c55918f1b3e) (article)
+- [Learning from code](https://study.hackyourfuture.be/learning/learning-from-code) (gitbook)
+
+[TOP](#behavior-strategy-implementation)
