@@ -3,7 +3,7 @@
 
 ## Syntax
 
-> _functionName_(`type`, `type`, ...) -> `type`
+> functionName(`type`, `type`, ...) -> `type`
 
 ### Parameters
 
