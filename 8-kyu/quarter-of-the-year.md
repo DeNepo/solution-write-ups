@@ -28,6 +28,8 @@ A number between 1 and 4, representing a 3-month period of the year.
 
 > You might find that studying the kata's test cases helps you to think of interesting use cases.  In software development, code behavior and use cases are often described using tests.  Practice thinking of [edge cases](https://www.geeksforgeeks.org/dont-forget-edge-cases/), it's good for you ;)
 
+> Notice! The examples should not include the source code for your solution or someone else's.  Examples show how to _call_ the function in a realistic(ish) setting.
+
 This function's behavior is relatively simple to understand. This exercise didn't include complicated edge cases so there are only 12 possible examples. I chose two that show the transition from one quarter to the next
 
 The last second quarter month:
