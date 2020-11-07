@@ -1,7 +1,5 @@
 # [Quarter of the Year](https://www.codewars.com/kata/5ce9c1000bab0b001134f5af)
 
-> describe the function's behavior in your own words. explain why someone might want to use this function
-
 A year is 12 months long, so can be broken into 4 quarters with 3 months each.  This function determines which of the 4 quarter a month belongs to.
 
 To use this function you represent a month by it's number (ie. January is 1, December is 12), and the function will tell you which quarter it is in by return 1, 2, 3 or 4.
@@ -22,11 +20,7 @@ This function could be useful if you are writing an accounting app and needed to
 
 A number between 1 and 4, representing a 3-month period of the year.
 
-## Examples
-
-> Write a couple use cases that show how this function behaves. try to write examples that show _edge cases_ (scenarios when a function behaves different than you'd expect).  This will help you and others better understand the function.
-
-> You might find that studying the kata's test cases helps you to think of interesting use cases.  In software development, code behavior and use cases are often described using tests.  Practice thinking of [edge cases](https://www.geeksforgeeks.org/dont-forget-edge-cases/), it's good for you ;)
+## Use Cases
 
 This function's behavior is relatively simple to understand. This exercise didn't include complicated edge cases so there are only 12 possible examples. I chose two that show the transition from one quarter to the next
 
@@ -54,7 +48,7 @@ const quarterlyExpenses = [0, 0, 0, 0];
 for (let i = 0; i < 12; i++) {
   const expense = monthlyExpenses[i];
   const quarter = quarterOf(i);
-  quarterlyExpenses[i] += expense;
+  quarterlyExpenses[quarter] += expense;
 }
 console.log(quarterlyExpenses); // [59, 5.6, 84, 23]
 ```
@@ -70,15 +64,9 @@ const quarterOf = month => [1,1,1,1,2,2,2,3,3,3,4,4,4][month]
 
 ### Strategy
 
-> Describe what strategy they used to pass this challenge.  Careful! your strategy description should not mention what code they wrote to solve the challenge. Practice describing their strategy at a higher level: a simple way to understand _strategy_ is to think of the important steps between the argument values and the return values.
-
-> For example if they use a `for` loop you won't mention that `i` was incremented, but you might decide to mention how the final result changes at each iteration.
-
 This problem has a small number of possible arguments and return values. Dan chose the strategy of listing all possible solutions and using the argument to determine which value to return.
 
 ### Implementation
-
-> Describe how the user implemented their strategy. ie. how did they use JS language features to go from the arguments to the return value, following the strategy described above.
 
 Dannerd wrote a one-line implementation of his strategy that uses array access to get the correct answer.  The trickiest bit of his implementation is that that his array actually has 13 entries because the first value's index is `0`, not `1`.  He wrote a `1` as the first entry but it could actually be any value because it's never used.
 
@@ -89,10 +77,6 @@ Dannerd wrote a one-line implementation of his strategy that uses array access t
 **Array access by index**: Since the parameter is a number, Dan used it as an index to access the correct answer in the array.
 
 ### Possible Refactors
-
-> List a couple other language features they could have used without changing their strategy.  For example: `while` loops and `for` loops can often be interchanged. `if else`, `switch case` and `_ ? _ : _` can sometimes be interchanged.
-
-> You don't need to actually rewrite the function, or even be 100% that they could be interchanged. The goal of this section is to get you exploring different JS language features and thinking of different ways to write the same code.
 
 This strategy could also be implemented with these Implementation ...
 
@@ -132,17 +116,67 @@ This strategy could also be implemented using these (but not only these) Impleme
 
 ---
 
+### [My Solution](https://www.codewars.com/users/colevandersWands/completed_solutions)
+
+```js
+const quarterOf = (month) => {
+
+  if (typeof month !== 'number') {
+    throw new TypeError('month is not a number');
+  }
+  if (!Number.isInteger(month)) {
+    throw new RangeError('month is not an integer');
+  }
+  if (month < 1) {
+    throw new RangeError('month is less than 1');
+  }
+  if (month > 12) {
+    throw new RangeError('month is greater than 12');
+  }
+
+
+  if (month >= 1 && month <= 3) {
+    return 1;
+
+  } else if (month >= 4 && month <= 6) {
+    return 2;
+
+  } else if (month >= 7 && month <= 9) {
+    return 3;
+
+  } else if (month >= 10 && month <= 12) {
+    return 4;
+  }
+
+}
+```
+
+### Strategy
+
+I took the less clever and more transparent strategy of checking what range the month fits in (1-3, 4-6, 7-9, 10-12) and returning the quarter based on this check.
+
+### Implementation
+
+**`throw new`**: I implemented a type-guards and three range guards.  This isn't required by CodeWars (all test cases are valid), but it helps me understand the function's behavior and use cases when it's clear what the parameters should be.
+
+**if, else if**: My strategy was all about executing different code for different inputs.  I could have used ternaries, but I think conditionals are easier to read.
+
+**typeof _ !== _**: I used `typeof` and strict inequality to check the argument's type
+
+**Number.isInteger**: Since ES6, JS has a built-in method for checking if something is an integer.  nice
+
+**>, <, >=, <=**: For the guards and the main logic, I needed to check what range the parameter falls into. In the main logic I could have just checked if the month was less than a number, but I like being able to see the min and max for each range.
+
+### Possible Refactors
+
+- get rid of the extra guards
+- use
+
+---
+
 ## Notes
 
-> write any notes to help you review this exercise later, and to help others' study it. this might include
-
-> - new vocabulary you learned
-> - the most important thing(s) you learned
-> - something that you still don't understand but want to keep studying
-> - something that surprised you
-> - tricks you will want to remember and use later
-
-Studying ldq's solution I finally understood why to use parenthesis, I'd always wondered why you'd need to wrap thing in extra parenthesis.  Experimenting with their solution I found that it only works with the parenthesis like they are. any other way and it doesn't pass the tests.
+Studying ldq's solution I finally understood why to use parenthesis, I'd always wondered why you'd need to wrap thing in extra parenthesis.  Experimenting with their solution I found that it only works with the parenthesis like they are. any other way and it doesn't pass the tests. (order of operations!)
 
 Statements and expressions also clicked for me.  Studying solutions that do and don't use implicit returns helped to see this.
 

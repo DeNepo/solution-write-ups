@@ -1,0 +1,163 @@
+'use strict';
+
+/* Quarter of the year
+
+  thoughts ... notes ...
+
+*/
+
+(() => { // Dannerd
+
+  const quarterOf = (month) => {
+    // return Math.floor(((month + 11) / 3) % 4) + 1;
+
+    // const step1 = month + 11;
+    // return Math.floor(((step1) / 3) % 4) + 1;
+
+    // const step1 = month + 11;
+    // const step2 = ((step1) / 3);
+    // return Math.floor(step2 % 4) + 1;
+
+    // const step1 = month + 11;
+    // const step2 = ((step1) / 3);
+    // const step3 = step2 % 4;
+    // return Math.floor(step3) + 1;
+
+    const step1 = month + 11;
+    const step2 = ((step1) / 3);
+    const step3 = step2 % 4;
+    const step4 = Math.floor(step3);
+    return step4 + 1;
+  }
+
+  const july = 7;
+  const julyQuarter = quarterOf(july);
+  console.log(julyQuarter); // 3
+
+  const june = 6;
+  const juneQuarter = quarterOf(june);
+  console.log(juneQuarter); // 2
+})();
+
+
+(() => { // abdullaachilov
+
+  // this one is a lot like ldq, but with an object instead of an array
+  // const quarterOf = (month) => {
+  //   return {
+  //     1: 1, 2: 1, 3: 1,
+  //     4: 2, 5: 2, 6: 2,
+  //     7: 3, 8: 3, 9: 3,
+  //     10: 4, 11: 4, 12: 4
+  //   }[month + '']
+  // }
+  const quarterOf = (month) => {
+    const quartersObject = {
+      // quarter 1, the first three month keys have the same value
+      1: 1, 2: 1, 3: 1,
+      // quarter 2, same with this quarter
+      4: 2, 5: 2, 6: 2,
+      // quarter 3, ...
+      7: 3, 8: 3, 9: 3,
+      // quarter 4
+      10: 4, 11: 4, 12: 4
+    }
+    // step-by-step, it's just object key/value access
+    const monthAsStringKey = String(month);
+    const thisQuarter = quartersObject[monthAsStringKey]
+    return thisQuarter
+  }
+
+  const june = 6;
+  const juneQuarter = quarterOf(june);
+  console.log(juneQuarter); // 2
+})();
+
+
+(() => { // dream-ardor
+  // const quarterOf = m => m == 1 || m == 2 || m == 3 ? 1 : m == 4 || m == 5 || m == 6 ? 2 : m == 7 || m == 8 || m == 9 ? 3 : 4;
+  const quarterOf = (month) => { // rewriting so it's easier to read
+    return (month == 1 || month == 2 || month == 3)
+      ? 1
+      : (month == 4 || month == 5 || month == 6)
+        ? 2
+        : (month == 7 || month == 8 || month == 9)
+          ? 3
+          : 4;
+  }
+
+  const monthlyExpenses = [12, 42, 5, 0, 2, 3.6, 1, 0, 83, 9, 10, 4];
+  const quarterlyExpenses = [0, 0, 0, 0];
+  for (let i = 0; i < 12; i++) {
+    const expense = monthlyExpenses[i];
+    const quarter = quarterOf(i);
+    quarterlyExpenses[quarter] += expense;
+  }
+  console.log(quarterlyExpenses); // [59, 5.6, 84, 23]
+})();
+
+
+(() => { // ldq
+  // const quarterOf = month => [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4][month]
+  const quarterOf = month => { // easier to read
+    const quartersArray = [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4]
+    const thisQuarter = quartersArray[month]
+    return thisQuarter
+  }
+  // the array version of abdullaachilov's solution
+
+
+  const monthlyExpenses = [12, 42, 5, 0, 2, 3.6, 1, 0, 83, 9, 10, 4];
+  const quarterlyExpenses = [0, 0, 0, 0];
+  for (let i = 0; i < 12; i++) {
+    const expense = monthlyExpenses[i];
+    const quarter = quarterOf(i);
+    quarterlyExpenses[quarter] += expense;
+  }
+  console.log(quarterlyExpenses); // [59, 5.6, 84, 23]
+})();
+
+
+// these three look similar but I do not understand them
+// they all use the | operator, what?
+(() => { // linisnie, emgordon154
+  const quarterOf = m => m / 3 + .7 | 0
+})();
+(() => { // ZED.CWT
+  const quarterOf = Q => 0 | (2 + Q) / 3
+})();
+(() => { // visph
+  const quarterOf = m => (--m / 3 | 0) + 1;
+})();
+
+
+
+(() => { // me, an earlier version
+  const quarterOf = (month) => {
+
+    if (typeof month !== 'number') {
+      throw new TypeError('month is not a number');
+    }
+    if (month < 1) {
+      throw new RangeError('month is less than 1');
+    }
+    if (month > 12) {
+      throw new RangeError('month is greater than 12');
+    }
+
+
+    if (month >= 1 && month <= 3) {
+      return 1;
+
+    } else if (month >= 4 && month <= 6) {
+      return 2;
+
+    } else if (month >= 7 && month <= 9) {
+      return 3;
+
+    } else {
+      return 4;
+    }
+
+  }
+})();
