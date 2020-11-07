@@ -7,7 +7,7 @@ explain why someone might want to use this function
 
 ## Syntax
 
-> _functionName_(`type`, `type`, ...) -> `type`
+> functionName(`type`, `type`, ...) -> `type`
 
 ### Parameters
 
