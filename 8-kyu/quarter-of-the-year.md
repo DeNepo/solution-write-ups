@@ -172,7 +172,11 @@ I took the less clever and more transparent strategy of checking what range the 
 ### Possible Refactors
 
 - get rid of the extra guards
-- use
+- use an else instead of the final if-else
+- really, all of the else-ifs could just be if's since each one returns
+- have simpler conditional checks in the main logic
+- use a big nested ternary, but that can be nasty to read
+- use a switch/case, but those can be more difficult to debug
 
 ---
 

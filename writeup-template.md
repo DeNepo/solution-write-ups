@@ -103,8 +103,6 @@ and think of different ways to implement the same strategy.
 
 ---
 
-> write up your own solution to this problem
-
 ### [My Solution](https://www.codewars.com/users/your-codewars-username/completed_solutions)
 
 ```js
