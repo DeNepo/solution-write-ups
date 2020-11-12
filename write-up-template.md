@@ -1,4 +1,4 @@
-# [challengeName](https://www.codewars.com/kata/challengeNumber)
+# [challengeName](link-to-challenge)
 
 ```
 describe the function's behavior in your own words.
@@ -38,7 +38,7 @@ https://www.geeksforgeeks.org/dont-forget-edge-cases/
 ---
 ---
 
-## [userName 1](https://www.codewars.com/users/userName)
+## [userName 1](link-to-user)
 
 ```js
 // paste their solution here
@@ -84,7 +84,7 @@ and think of different ways to implement the same strategy.
 
 ---
 
-## [userName 2](https://www.codewars.com/users/userName)
+## [userName 2](link-to-user)
 
 ```js
 // paste their solution here
@@ -103,7 +103,11 @@ and think of different ways to implement the same strategy.
 
 ---
 
-### [My Solution](https://www.codewars.com/users/your-codewars-username/completed_solutions)
+> ... maybe even more write-ups?
+
+---
+
+### [My Solution](link-to-you)
 
 ```js
 // paste your solution here
