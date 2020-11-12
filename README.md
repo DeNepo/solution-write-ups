@@ -102,6 +102,8 @@ Along the way you will learn many important "soft skills" including: how to read
 
 For each kata you study create a _new_ markdown file in this repository using [the template](./write-up-template.md).  Place it in the folder named after that kata's kyu level, and name the file after the kata.  Take a look at [the example write-up](./example-quarter-of-the-year) to see what yours might look like.
 
+Would you be more comfortable doing your writeups in another language than english?  The goal of these exercises is to learn JavaScript in programming, if that's easier for you in another language then go for it! 
+
 ### Sections
 
 Your write-ups should have these sections:
