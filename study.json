@@ -1,7 +1,7 @@
 {
   "study": {
     "eval": true,
-    "openIn": "jsTutor",
+    "openIn": "jsTutorLive",
     "loopGuard": true
   }
 }
