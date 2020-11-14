@@ -8,7 +8,7 @@ The main objective of these exercises is practicing how to [learn from code](htt
 
 There are many strategies for creating the same behavior, and there are many ways to implement the same strategy.
 
-By studying multiple solutions to the same kata written by more experienced programmers, you will learn how to approach and solve coding challenges on your own.
+By studying multiple solutions to the same challenge written by more experienced programmers, you will learn how to approach and solve coding challenges on your own.
 
 ### Index
 
@@ -55,7 +55,7 @@ These exercises are about exploring other people's code, not writing your own.  
 
 ### Easy is Ok
 
-Don't push too fast through the Kyu levels, your goal here is to practice analyzing code, not to solve harder and harder problems. You can learn everything you need to learn by studying easier challenges.
+Don't push too fast to harder and harder challenges. Your goal here is to practice analyzing code, not to solve harder and harder problems. You can learn everything you need to learn by studying easier challenges.
 
 Codewar users write some (overly) clever solutions to simple problems.  You can learn a lot about JavaScript and programming from them. The less you struggle to understand the problem the quicker you can lean from their code.
 
@@ -72,11 +72,11 @@ After you've chosen the problem you want to write up, create a file called `prob
 - Step through the different solutions in JS Tutor or the debugger and with different arguments.
 - Change the variable names to something that helps you understand their role in the function
 - refactor the solutions to be more readable. write comments, expand expressions, add extra variables, whatever helps!
-- Paste the solutions in the Kata's _Train_ page and see what happens when you change the code.  What changes can you make that still pass the tests? What changes make the tests fail?
+- Paste the solutions in the challenge's practice environment and see what happens when you change the code.  What changes can you make that still pass the tests? What changes make the tests fail?
 
 Experimenting with different solutions to the same function will be the best way to understand a challenge's behavior, and the most effective way to come up with good example use cases.
 
-Take a look through the [quarter-of-the-year.js](./8-kyu/quarter-of-the-year.js) example to see what this might look like.
+Take a look through the [example-quarter-of-the-year/sandbox.js](./example-quarter-of-the-year/sandbox.js) example to see what this might look like.
 
 ### Forks
 
@@ -86,7 +86,7 @@ When you find someone's work that's especially helpful link to it in [this issue
 
 ### Sharing
 
-Did you find a fun kata with many good solutions to study? Link to it in [Awesome Katas](https://github.com/HackYourFutureBelgium/solution-write-ups/issues/2).
+Did you find a fun challenge with many good solutions to study? Link to it in [Awesome Challenges](https://github.com/HackYourFutureBelgium/solution-write-ups/issues/2).
 
 Do you have a great trick for studying Codewars? Is there a resource you found online that helped you? Share it!  Open an issue in this repository and give it a good label so others can find it.
 
@@ -96,19 +96,19 @@ Do you have a great trick for studying Codewars? Is there a resource you found o
 
 ## Write-Ups
 
-The main goal of these exercises is to write a markdown file analyzing _other people's_ solutions to a programming challenges.  You will also be analyzing your own solution to the kata, when you do this try to see your code as if someone else wrote it.
+The main goal of these exercises is to write a markdown file analyzing _other people's_ solutions to a programming challenges.  You will also be analyzing your own solution to the challenge, when you do this try to see your code as if someone else wrote it.
 
 Along the way you will learn many important "soft skills" including: how to read and write documentation, how to understand source code, how to interpret test cases, and how to explain your code to others.
 
-For each kata you study create a _new_ markdown file in this repository using [the template](./write-up-template.md).  Place it in the folder named after that kata's kyu level, and name the file after the kata.  Take a look at [the example write-up](./example-quarter-of-the-year) to see what yours might look like.
+For each challenge you study create a _new_ folder file in this repository with a README created from [this template](./write-up-template.md).  Take a look at [the example write-up](./example-quarter-of-the-year) to see what yours might look like.  But don't stop there!  you can fill each challenge's folder with any notes or resources you found helpful: screen shots of the debugger or JS tutor, diagrams, flowcharts, fun use cases ... whatever helped you understand the challenge and it's solutions.
 
-Would you be more comfortable doing your writeups in another language than english?  The goal of these exercises is to learn JavaScript in programming, if that's easier for you in another language then go for it! 
+Would you be more comfortable doing your write-ups in another language than english?  The goal of these exercises is to learn JavaScript in programming, if that's easier for you in another language then go for it!
 
 ### Sections
 
-Your write-ups should have these sections:
+Your write-ups should have these sections, at least.  Is there something else you want to include? go for it:
 
-- **Motivation**: (just under the title) Describe the kata in plain english and give an idea of when/why/how this function might be useful in real life.
+- **Motivation**: (just under the title) Describe the challenge in plain english and give an idea of when/why/how this function might be useful in real life.
 - **Syntax**: What does someone need to know to use the function? This includes the types of all _parameters_, and the _return value_.
 - **Examples**: Write a few use cases. These show how the function could be used in a real program.  Practice finding interest [edge cases](https://www.geeksforgeeks.org/dont-forget-edge-cases/), it's good for you ;)
 - **User Solutions**: Analyze the solutions written by (at least) 2 different users.  Chose solutions that used different strategies. your write-ups should include:
@@ -120,7 +120,7 @@ Your write-ups should have these sections:
 
 ### Example
 
-There's an [example write-up to study](./8-kyu/quarter-of-the-year.md) in the **8 Kyu** directory. Hopefully this will help you get the feel for it.  What you can't learn from this example you can learn by studying other people's write-ups and asking for help.
+There's an [example write-up to study](./example-quarter-of-the-year) in the `/example-quarter-of-the-year` directory. Hopefully this will help you get the feel for it.  What you can't learn from this example you can learn by studying other people's write-ups and asking for help.
 
 ### Template
 
@@ -131,7 +131,7 @@ There is also [a template write-up](./write-up-template.md) you can use to get s
 ## Helpful Links
 
 - [Awesome Write-Ups](https://github.com/HackYourFutureBelgium/solution-write-ups/issues/1) (issue)
-- [Awesome Katas](https://github.com/HackYourFutureBelgium/solution-write-ups/issues/2) (issue)
+- [Awesome Challenges](https://github.com/HackYourFutureBelgium/solution-write-ups/issues/2) (issue)
 - [Learn to read the source, Luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/) (article)
 - [How to quickly and effectively read other people's code](https://selftaughtcoders.com/how-to-quickly-and-effectively-read-other-peoples-code/) (article)
 - [How to understand someone else's code?](https://www.youtube.com/watch?v=tON6F_yZb-E) (video)
