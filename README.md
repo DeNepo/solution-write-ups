@@ -43,7 +43,7 @@ Compared with Codewars the challenges on Edabit will be a little easier, and the
 
 [Codewars](https://www.codewars.com/) is a website with progressive programming challenges starting at **8 kyu** (easiest) all the way upt to **1 kyu** (the hardest).  You can learn more about Codewars by reading [the Codewars Wiki](https://github.com/codewars/codewars.com/wiki/).
 
-Compared with Edabit, the challenges on Codewars will be a more challenging.  Users on Codewars also submit more complex, "impressive" or imaginative solutions.  They may not be best practice, but they can sure be fun to puzzle out.
+Compared with Edabit, the challenges on Codewars can be more challenging.  Users on Codewars also submit more complex, "impressive" or imaginative solutions.  They may not be best practice, but they can sure be fun to puzzle out.
 
 [TOP](#solution-write-ups)
 
