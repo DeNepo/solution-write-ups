@@ -1,7 +1,10 @@
 {
   "study": {
+    "save": true,
     "eval": true,
-    "openIn": "jsTutorLive",
-    "loopGuard": true
+    "loopGuard": true,
+    "variables": true,
+    "flowchart": true,
+    "tests": [".test.js"]
   }
 }

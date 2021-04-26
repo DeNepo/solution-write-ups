@@ -1,0 +1,23 @@
+{
+  "name": "solution-write-ups",
+  "version": "1.0.0",
+  "description": "when you learn how to understand other people's (maybe) clever code",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackYourFutureBelgium/solution-write-ups.git"
+  },
+  "scripts": {
+    "test-one": "node --experimental-vm-modules node_modules/.bin/jest "
+  },
+  "author": "HackYourFutureBelgium",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackYourFutureBelgium/solution-write-ups/issues"
+  },
+  "homepage": "https://github.com/HackYourFutureBelgium/solution-write-ups#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "jest-cli": "^26.6.3"
+  }
+}

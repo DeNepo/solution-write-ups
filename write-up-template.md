@@ -23,10 +23,18 @@ describe the parameter
 describe the return value
 ```
 
+## Test Cases
+
+```
+copy in the test cases from the original challenge
+
+if you write your own test cases in a sandbox file, include those too
+```
+
 ## Use Cases
 
 ```
-write a minimum of 3 use cases to show this functions behavior.
+write a minimum of 2 use cases to show this functions behavior.
 
 try to find interesting _edge cases_, it's good for you ;)
 an edge case is when a function behaves different than you'd expect.
@@ -36,6 +44,7 @@ https://www.geeksforgeeks.org/dont-forget-edge-cases/
 ```
 
 ---
+
 ---
 
 ## [userName 1](link-to-user)
@@ -92,14 +101,9 @@ and think of different ways to implement the same strategy.
 
 ### Strategy
 
-
-
 ### Implementation
 
-
-
 ### Possible Refactors
-
 
 ---
 
@@ -115,15 +119,9 @@ and think of different ways to implement the same strategy.
 
 ### Strategy
 
-
-
 ### Implementation
 
-
-
 ### Possible Refactors
-
-
 
 ---
 
