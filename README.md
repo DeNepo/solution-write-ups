@@ -118,7 +118,7 @@ Your write-ups should have these sections, at least. Is there something else you
   - **Implementation**: What code did they write to make their strategy a reality? Include references to the language features they used.
   - **Possible Refactors**: What changes could you make to the function that would still pass the tests, without changing the strategy? A good first step is listing other language features that could be used.
   - **References**: Links that helped you to understand this solution or to think of possible refactors
-- **Your Solution**: After studying a few different ways to solve this problem, how would you want to do it? Don't from nothing, there's always time for that later. In these exercises you should focus on how you would adjust or combine existing solutions to make something you like more.
+- **Remix**: After studying a few different ways to solve this problem, how would you want to do it? Don't from nothing, there's always time for that later. In these exercises you should focus on how you would adjust or combine existing solutions to make something you like more.
 - **Retrospective**: What did you learn from studying this challenge? What good ideas do you want to use in your code? What less good ideas do you want to avoid? Anything else you'd like to add?
 
 ### Example

@@ -217,6 +217,10 @@ I took the less clever and more transparent strategy of checking what range the 
 - use a big nested ternary, but that can be nasty to read
 - use a switch/case, but those can be more difficult to debug
 
+### Inspired By
+
+The solutions I wrote up were interesting, but not something I wanted to write. [kunaguero](https://www.codewars.com/users/kunaguero)'s solution inspired me. They used simple conditionals, but unlike other solutions they logged if the input was invalid if it was not in range. This inspired me to write guards for the parameters.
+
 ### References
 
 I tried to write my solution using only JS that I already understood, the only thing I needed to look up was `Number.isInteger`:

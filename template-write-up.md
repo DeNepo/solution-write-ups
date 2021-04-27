@@ -105,10 +105,10 @@ links that helped you to understand this solution or to think of possible refact
 
 ---
 
-### [My Solution](link-to-you)
+### Remix
 
 ```js
-// paste your solution here
+// paste your remixed solution here
 ```
 
 ### Strategy
@@ -116,6 +116,13 @@ links that helped you to understand this solution or to think of possible refact
 ### Implementation
 
 ### Possible Refactors
+
+### Inspired By
+
+```
+which solutions inspired your solution?
+what did you take from each one?
+```
 
 ### References
 
