@@ -100,7 +100,7 @@ The main goal of these exercises is to write a markdown file analyzing _other pe
 
 Along the way you will learn many important "soft skills" including: how to read and write documentation, how to understand source code, how to interpret test cases, and how to explain your code to others.
 
-For each challenge you study create a _new_ folder file in this repository with a README created from [this template](./write-up-template.md). Take a look at [the example write-up](./example-quarter-of-the-year) to see what yours might look like. But don't stop there! you can fill each challenge's folder with any notes or resources you found helpful: screen shots of the debugger or JS tutor, diagrams, flowcharts, fun use cases ... whatever helped you understand the challenge and it's solutions.
+For each challenge you study create a _new_ folder file in this repository with a README created from [this template](./template-write-up.md). Take a look at [the example write-up](./example-quarter-of-the-year) to see what yours might look like. But don't stop there! you can fill each challenge's folder with any notes or resources you found helpful: screen shots of the debugger or JS tutor, diagrams, flowcharts, fun use cases ... whatever helped you understand the challenge and it's solutions.
 
 Would you be more comfortable doing your write-ups in another language than english? The goal of these exercises is to learn JavaScript in programming, if that's easier for you in another language then go for it!
 
@@ -126,7 +126,7 @@ There's an [example write-up to study](./example-quarter-of-the-year) in the `/e
 
 ### Template
 
-There is also [a template write-up](./write-up-template.md) you can use to get started. It has all the required sections along with a description of what goes in each section. When you copy over the markdown to a new file, delete the explanations and fill in the sections with your own analyses.
+There is also [a template write-up](./template-write-up.md) you can use to get started. It has all the required sections along with a description of what goes in each section. When you copy over the markdown to a new file, delete the explanations and fill in the sections with your own analyses.
 
 ---
 
