@@ -117,7 +117,8 @@ Your write-ups should have these sections, at least. Is there something else you
   - **Strategy**: Describe how they approached solving this problem. This section should not include any mention off JavaScript syntax or language features. (this will take some practice)
   - **Implementation**: What code did they write to make their strategy a reality? Include references to the language features they used.
   - **Possible Refactors**: What changes could you make to the function that would still pass the tests, without changing the strategy? A good first step is listing other language features that could be used.
-- **Notes**: Write any extra notes to help you and others review your write-up.
+  - **References**: Links that helped you to understand this solution or to think of possible refactors
+- **Retrospective**: What did you learn from studying this challenge? What good ideas do you want to use in your code? What less good ideas do you want to avoid? Anything else you'd like to add?
 
 ### Example
 

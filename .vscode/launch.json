@@ -4,18 +4,20 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Current JS File (with tests)",
-      "args": ["run", "test-one", "${file}"],
-      "runtimeExecutable": "npm",
+      "name": "Current JS File (no tests)",
+      "args": ["${file}"],
+      "runtimeExecutable": "node",
       "internalConsoleOptions": "openOnSessionStart",
       "skipFiles": ["<node_internals>/**"]
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Current JS File (no tests)",
-      "program": "${file}",
-      "internalConsoleOptions": "openOnSessionStart"
+      "name": "Current JS File (with tests)",
+      "args": ["run", "test-one", "${file}"],
+      "runtimeExecutable": "npm",
+      "internalConsoleOptions": "openOnSessionStart",
+      "skipFiles": ["<node_internals>/**"]
     }
   ]
 }

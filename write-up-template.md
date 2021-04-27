@@ -47,7 +47,9 @@ https://www.geeksforgeeks.org/dont-forget-edge-cases/
 
 ---
 
-## [userName 1](link-to-user)
+<!-- copy this section for every solution you study -->
+
+## [userName](link-to-user)
 
 ```js
 // paste their solution here
@@ -91,19 +93,11 @@ The goal of this section is that you exploring different JS language features
 and think of different ways to implement the same strategy.
 ```
 
----
+### References
 
-## [userName 2](link-to-user)
-
-```js
-// paste their solution here
 ```
-
-### Strategy
-
-### Implementation
-
-### Possible Refactors
+links that helped you to understand this solution or to think of possible refactors
+```
 
 ---
 
@@ -123,15 +117,19 @@ and think of different ways to implement the same strategy.
 
 ### Possible Refactors
 
+### References
+
 ---
 
-## Notes
+## Retrospective
 
 ```
 write any notes to help you review this exercise later, and to help others' study it.
 
 this might include:
 
+- good ideas to use later in your own code
+- less good ideas to avoid in your own code
 - new vocabulary you learned
 - the most important thing(s) you learned
 - something that you still don't understand but want to keep studying

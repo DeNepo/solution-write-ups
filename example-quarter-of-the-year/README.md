@@ -118,6 +118,12 @@ This strategy could also be implemented with these Implementation ...
 - a long `switch case`,
 - an object with key/value pairs to represent the possible correct answers
 
+### References
+
+This solution was interesting because of how Dannerd used JS, the only new that confused me for a minute was the implicit return:
+
+- implicit returns: [kbarker.dev](https://kbarker.dev/blog/implicit-return-statements-in-javascript/)
+
 ---
 
 ## [ldq](https://www.codewars.com/users/ldq)
@@ -147,6 +153,13 @@ This strategy could also be implemented using these (but not only these) Impleme
 - an arrow function with implicit return
 - bitwise operators (if you want to make your life difficult)
 - `Math.ceil` to round up, instead of rounding down
+
+### References
+
+For ldq's solution I needed to review operator precedence and look up how `Math.floor` works.
+
+- operator precedence: [scriptingmaster](http://www.scriptingmaster.com/javascript/operator-precedence.asp), [Avelx, BOMDAS](https://www.youtube.com/watch?v=v-L5v6GEFcY), [GreeneMath](https://www.youtube.com/watch?v=XI2KKC_7FAM)
+- `Math.floor`: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
 
 ---
 
@@ -204,9 +217,15 @@ I took the less clever and more transparent strategy of checking what range the 
 - use a big nested ternary, but that can be nasty to read
 - use a switch/case, but those can be more difficult to debug
 
+### References
+
+I tried to write my solution using only JS that I already understood, the only thing I needed to look up was `Number.isInteger`:
+
+- `Number.isInteger`: [StackOverflow](https://stackoverflow.com/a/16476634), [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger)
+
 ---
 
-## Notes
+## Retrospective
 
 Studying ldq's solution I finally understood why to use parenthesis, I'd always wondered why you'd need to wrap thing in extra parenthesis. Experimenting with their solution I found that it only works with the parenthesis like they are. any other way and it doesn't pass the tests. (order of operations!)
 
