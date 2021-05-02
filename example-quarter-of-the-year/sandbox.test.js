@@ -6,7 +6,7 @@
 
 */
 
-const dannerd = month => {
+const ldq = month => {
   // return Math.floor(((month + 11) / 3) % 4) + 1;
 
   // const step1 = month + 11;
@@ -65,7 +65,7 @@ const abdullaachilov = month => {
 };
 
 // const quarterOf = month => [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4][month]
-const ldq = month => {
+const dannerd = month => {
   // easier to read
   const quartersArray = [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4];
   const thisQuarter = quartersArray[month];
