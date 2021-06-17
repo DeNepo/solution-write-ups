@@ -35,9 +35,17 @@ Normally people log into these platforms to solve challenges and progress throug
 
 ### Edabit
 
+> free trial period
+
 [Edabit](https://edabit.com) is an exercise platform that lets you choose from a wide selection of coding challenges to study. The website has some helpful tutorials to get you started and each exercise has some suggested resources to study. You can choose freely between easy and difficult challenges.
 
-Compared with Codewars the challenges on Edabit will be a little easier, and the solutions are generally more clear to read and understand. They may not always be the most "clever" solution, but you can pick up some good habits for writing clear and readable code.
+Compared with Codewars or Exercism the challenges on Edabit will be a little easier, and the solutions are generally more clear to read and understand. They may not always be the most "clever" solution, but you can pick up some good habits for writing clear and readable code.
+
+### Exercism
+
+On [Exercism](https://exercism.io/tracks/javascript/exercises) you will be able to study other people's solutions, but they don't have an online coding environment. To submit your own solutions you will need to install their CLI and work locally.
+
+The solutions on Exercism are generally clear and well-written using modern ES6 JavaScript.
 
 ### Codewars
 
