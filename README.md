@@ -41,17 +41,21 @@ Normally people log into these platforms to solve challenges and progress throug
 
 Compared with Codewars or Exercism the challenges on Edabit will be a little easier, and the solutions are generally more clear to read and understand. They may not always be the most "clever" solution, but you can pick up some good habits for writing clear and readable code.
 
-### Exercism
-
-On [Exercism](https://exercism.io/tracks/javascript/exercises) you will be able to study other people's solutions, but they don't have an online coding environment. To submit your own solutions you will need to install their CLI and work locally.
-
-The solutions on Exercism are generally clear and well-written using modern ES6 JavaScript. Some of the exercises are functions, study these. Some of them are classes (Object Oriented Programming), you can skip these.
-
 ### Codewars
 
 [Codewars](https://www.codewars.com/) is a website with progressive programming challenges starting at **8 kyu** (easiest) all the way upt to **1 kyu** (the hardest). You can learn more about Codewars by reading [the Codewars Wiki](https://github.com/codewars/codewars.com/wiki/).
 
 Compared with Edabit, the challenges on Codewars can be more challenging. Users on Codewars also submit more complex, "impressive" or imaginative solutions. They may not be best practice, but they can sure be fun to puzzle out.
+
+### CoderByte
+
+[CoderByte](https://coderbyte.com/) is somewhere between Codewars and Edabit. There are many levels of challenges and many solutions to study. Some of the challenges come with a video explaining the problem and walking through a solution.
+
+### Exercism
+
+On [Exercism](https://exercism.io/tracks/javascript/exercises) you will be able to study other people's solutions, but they don't have an online coding environment. To submit your own solutions you will need to install their CLI and work locally.
+
+The solutions on Exercism are generally well-written using modern ES6 JavaScript, but often have less variety than the other platforms. Some of the exercises are functions, study these. Some of them are classes (Object Oriented Programming), you can skip these.
 
 [TOP](#solution-write-ups)
 
