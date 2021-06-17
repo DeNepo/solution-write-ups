@@ -45,7 +45,7 @@ Compared with Codewars or Exercism the challenges on Edabit will be a little eas
 
 On [Exercism](https://exercism.io/tracks/javascript/exercises) you will be able to study other people's solutions, but they don't have an online coding environment. To submit your own solutions you will need to install their CLI and work locally.
 
-The solutions on Exercism are generally clear and well-written using modern ES6 JavaScript.
+The solutions on Exercism are generally clear and well-written using modern ES6 JavaScript. Some of the exercises are functions, study these. Some of them are classes (Object Oriented Programming), you can skip these.
 
 ### Codewars
 
