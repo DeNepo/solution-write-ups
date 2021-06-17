@@ -49,7 +49,9 @@ Compared with Edabit, the challenges on Codewars can be more challenging. Users 
 
 ### CoderByte
 
-[CoderByte](https://coderbyte.com/) is somewhere between Codewars and Edabit. There are many levels of challenges and many solutions to study. Some of the challenges come with a video explaining the problem and walking through a solution.
+> limited access with free account
+
+[CoderByte](https://coderbyte.com/) is somewhere between Codewars and Edabit. There are different levels of challenges and many solutions to study. Some of the challenges come with a video explaining the problem and walking through a solution.
 
 ### Exercism
 
