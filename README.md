@@ -41,6 +41,10 @@ Normally people log into these platforms to solve challenges and progress throug
 
 Compared with Codewars or Exercism the challenges on Edabit will be a little easier, and the solutions are generally more clear to read and understand. They may not always be the most "clever" solution, but you can pick up some good habits for writing clear and readable code.
 
+### LeetCode
+
+[LeetCode](https://leetcode.com/) is full of great challenges, supporting explanations/videos, solutions, and discussions. LeetCode also has many other learning resources to help you take the first steps in Computer Science and algorithms.
+
 ### Codewars
 
 [Codewars](https://www.codewars.com/) is a website with progressive programming challenges starting at **8 kyu** (easiest) all the way upt to **1 kyu** (the hardest). You can learn more about Codewars by reading [the Codewars Wiki](https://github.com/codewars/codewars.com/wiki/).
