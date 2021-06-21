@@ -13,8 +13,6 @@ By studying multiple solutions to the same challenge written by more experienced
 ### Index
 
 - [Exercise Platforms](#exercise-platforms)
-  - [Edabit](#edabit)
-  - [Codewars](#codewars)
 - [Exploring](#exploring)
   - [Easy is Ok](#easy-is-ok)
   - [Forfeit!](#forfeit)
@@ -31,7 +29,7 @@ By studying multiple solutions to the same challenge written by more experienced
 
 ## Exercise Platforms
 
-Normally people log into these platforms to solve challenges and progress through the ranks. You'll be going there to forfeit challenges and study other people's solutions. Below are two platforms you can try out, you can stick with your favorite or use both. If you know of another platform, go for it! All that matters is that you can study many solutions to the same problem
+Normally people log into these platforms to solve challenges and progress through the ranks. You'll be going there to forfeit challenges and study other people's solutions. Below are some platforms you can try out, you can stick with your favorite or use them all. If you know of another platform, go for it! All that matters is that you can study many solutions to the same problem
 
 ### Edabit
 
