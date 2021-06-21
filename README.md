@@ -13,8 +13,6 @@ By studying multiple solutions to the same challenge written by more experienced
 ### Index
 
 - [Exercise Platforms](#exercise-platforms)
-  - [Edabit](#edabit)
-  - [Codewars](#codewars)
 - [Exploring](#exploring)
   - [Easy is Ok](#easy-is-ok)
   - [Forfeit!](#forfeit)
