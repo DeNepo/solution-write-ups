@@ -5,6 +5,8 @@
     "loopGuard": true,
     "variables": true,
     "flowchart": true,
+    "table": true,
+    "blanks": true,
     "tests": [".test.js"]
   }
 }
