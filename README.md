@@ -33,9 +33,9 @@ By studying multiple solutions to the same challenge written by more experienced
 > You will need [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) on your computer to study this material
 
 1. Clone this repository:
-   - `git clone git@github.com:HackYourFutureBelgium/behavior-strategy-implementation.git` (SSH)
+   - `git clone git@github.com:HackYourFutureBelgium/solution-write-ups.git` (SSH)
 2. `cd` into the repository
-   - `cd behavior-strategy-implementation`
+   - `cd solution-write-ups`
 3. Install dependencies:
    - `npm install`
 
