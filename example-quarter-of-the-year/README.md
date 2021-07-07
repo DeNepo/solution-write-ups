@@ -32,7 +32,7 @@ describe('Basic Tests', () => {
   Test.assertEquals(quarterOf(11), 4);
 });
 
-// refactored to Jest/Jasmine-like syntax (what you will be learning)
+// refactored to use describe/it/expect (what you will be learning at HYF)
 describe('Basic Tests', () => {
   it('should return 1 when 3 is passed', () => {
     expect(quarterOf(3)).toEqual(1);

@@ -18,6 +18,7 @@ By studying multiple solutions to the same challenge written by more experienced
   - [Easy is Ok](#easy-is-ok)
   - [Forfeit!](#forfeit)
   - [Sandbox](#sandbox)
+  - [Refactoring Tests](#refactoring-tests)
   - [Forks](#forks)
   - [Sharing](#sharing)
 - [Write-Ups](#write-ups)
@@ -138,6 +139,46 @@ After you've chosen the problem you want to write up, create a file called `prob
 Experimenting with different solutions to the same function will be the best way to understand a challenge's behavior, and the most effective way to come up with good example use cases.
 
 Take a look through the [example-quarter-of-the-year/sandbox.test.js](./example-quarter-of-the-year/sandbox.test.js) example to see what this might look like.
+
+### Refactoring Tests
+
+To run the tests from different platforms in your `sandbox.test.js` file, you will need to refactor the test cases from whatever format they are in to use `describe`, `it` and `expect`. This will take some practice but will become a routine task. Check out the [./refactoring-tests.mp4](./refactoring-tests.mp4) to see it live, here are the examples from the video:
+
+<details>
+<summary>test refactor examples</summary>
+
+```js
+// -- tests from Edabit: Add up the Numbers from a Single Number
+
+Test.assertEquals(addUp(4), 10); // √
+Test.assertEquals(addUp(13), 91);
+Test.assertEquals(addUp(600), 180300);
+Test.assertEquals(addUp(392), 77028);
+Test.assertEquals(addUp(53), 1431);
+Test.assertEquals(addUp(897), 402753);
+Test.assertEquals(addUp(23), 276);
+Test.assertEquals(addUp(1000), 500500);
+Test.assertEquals(addUp(738), 272691);
+Test.assertEquals(addUp(100), 5050);
+Test.assertEquals(addUp(925), 428275);
+Test.assertEquals(addUp(1), 1);
+Test.assertEquals(addUp(999), 499500);
+Test.assertEquals(addUp(175), 15400);
+Test.assertEquals(addUp(111), 6216);
+
+// -- tests refactored to describe/it/expect
+
+describe('addUp: should add up the numbers less than or equal to the parameter', () => {
+  it('should return 10 when we pass 4', () => {
+    expect(addUp(4)).toEqual(10);
+  });
+  it('should return 91 when we pass 13', () => {
+    expect(addUp(13)).toEqual(91);
+  });
+});
+```
+
+</details>
 
 ### Forks
 
