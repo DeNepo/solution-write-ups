@@ -25,10 +25,24 @@ A number between 1 and 4, representing a 3-month period of the year.
 Sample tests from CodeWars:
 
 ```js
+// directly from CodeWars
 describe('Basic Tests', () => {
   Test.assertEquals(quarterOf(3), 1);
   Test.assertEquals(quarterOf(8), 3);
   Test.assertEquals(quarterOf(11), 4);
+});
+
+// refactored to Jest/Jasmine-like syntax (what you will be learning)
+describe('Basic Tests', () => {
+  it('should return 1 when 3 is passed', () => {
+    expect(quarterOf(3)).toEqual(1);
+  });
+  it('should return 3 when 8 is passed', () => {
+    expect(quarterOf(8)).toEqual(3);
+  });
+  it('should return 4 when 11 is passed', () => {
+    expect(quarterOf(11)).toEqual(4);
+  });
 });
 ```
 

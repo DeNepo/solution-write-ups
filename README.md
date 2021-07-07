@@ -12,6 +12,7 @@ By studying multiple solutions to the same challenge written by more experienced
 
 ### Index
 
+- [Getting Started](#getting-started)
 - [Exercise Platforms](#exercise-platforms)
 - [Exploring](#exploring)
   - [Easy is Ok](#easy-is-ok)
@@ -24,6 +25,50 @@ By studying multiple solutions to the same challenge written by more experienced
   - [Example](#example)
   - [Template](#template)
 - [Helpful Links](#helpful-links)
+
+---
+
+## Getting Started
+
+> You will need [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) on your computer to study this material
+
+1. Clone this repository:
+   - `git clone git@github.com:HackYourFutureBelgium/behavior-strategy-implementation.git` (SSH)
+2. `cd` into the repository
+   - `cd behavior-strategy-implementation`
+3. Install dependencies:
+   - `npm install`
+
+### In the Browser
+
+> Using a browser with good DevTools will make your life easier: [Chromium](http://www.chromium.org/getting-involved/download-chromium), [FireFox](https://www.mozilla.org/en-US/firefox/new/), [Edge](https://www.microsoft.com/edge), [Chrome](https://www.google.com/chrome/)
+
+1. Install or update the `study-lenses` package globally
+   - `npm install -g study-lenses` (if you do not have it already)
+   - `npm update -g study-lenses` (if you already have it installed)
+2. Run the `study` command from your CLI
+   - `study`
+3. The material will open in your default browser, you're good to go!
+   - if a `.test.js` file does not work, you can manually check on tests from the config options
+
+> If you have a windows computer and get this error:
+>
+> - `... /study.ps1 cannot be loaded because running scripts ...`
+>
+> follow the instructions in [this StackOverflow answer](https://stackoverflow.com/a/63424744), that should take care of it ; )
+
+### In Node.js
+
+> The [debugger built into VSCode](https://code.visualstudio.com/Docs/editor/debugging) is very good, it's all you'll need. Don't forget to set [breakpoints](https://code.visualstudio.com/Docs/editor/debugging#_breakpoints)!
+
+- Running files in `.js` (without `.test`):
+  - _debugger_: open the file, select the debug option from your VSCode side-bar, choose the `Current JS File (no tests)` option, and click the triangle button. (hint you will need to use breakpoints)
+  - _console_: `node path/to/file.js`, simple and easy
+- Running files ending in `.test.js` or `.spec.js`:
+  - _debugger_: open the file, select the debug option from your VSCode side-bar, choose the `Current JS File (with tests)` option, and click the triangle button. (hint: you will need to use breakpoints)
+  - _console_: files ending in .test.js or .spec.js must be run with `npm run test -- path/to/file.test.js`.
+
+[TOP](#solution-write-ups)
 
 ---
 
