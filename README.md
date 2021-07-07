@@ -151,7 +151,7 @@ To run the tests from different platforms in your `sandbox.test.js` file, you wi
 // -- tests from Edabit: Add up the Numbers from a Single Number
 
 Test.assertEquals(addUp(4), 10); // √
-Test.assertEquals(addUp(13), 91);
+Test.assertEquals(addUp(13), 91); // √
 Test.assertEquals(addUp(600), 180300);
 Test.assertEquals(addUp(392), 77028);
 Test.assertEquals(addUp(53), 1431);
