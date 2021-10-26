@@ -1,6 +1,7 @@
 ls:
   .dir: kebab-case
-  .md: kebab-case | regex:[0-9A-Z\-]+
+  # so the write-up files can be named after usernames
+  .md: kebab-case | regex:[0-9A-Za-z\-]+
   .js: kebab-case
   .test.js: kebab-case
   .spec.js: kebab-case
@@ -11,3 +12,4 @@ ignore:
   - node_modules
   - .github
   - .vscode
+  - .template-write-up
