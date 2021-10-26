@@ -5,7 +5,7 @@
 */
 
 for (const solution of []) {
-  describe(solution.name + ': _', () => {
+  describe(`${solution.name}: ___`, () => {
     describe('_', () => {
       it('_', () => {
         expect(solution(_)).toEqual(_);

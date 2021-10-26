@@ -8,7 +8,12 @@
     "url": "git+https://github.com/HackYourFutureBelgium/solution-write-ups.git"
   },
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest --silent "
+    "format": "prettier --write ./",
+    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
+    "lint:ls": "ls-lint",
+    "lint:md": "markdownlint --ignore node_modules --ignore docs --config ./.markdownlint.jsonc --fix ./ ",
+    "spell-check": "cspell  './**'",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests "
   },
   "author": "HackYourFutureBelgium",
   "license": "MIT",
@@ -16,8 +21,21 @@
     "url": "https://github.com/HackYourFutureBelgium/solution-write-ups/issues"
   },
   "homepage": "https://github.com/HackYourFutureBelgium/solution-write-ups#readme",
-  "devDependencies": {},
-  "dependencies": {
-    "jest-cli": "^26.6.3"
+  "devDependencies": {
+    "@ls-lint/ls-lint": "^1.10.0",
+    "cspell": "^5.6.6",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-folders": "^1.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^32.3.1",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-sonarjs": "^0.9.1",
+    "jest": "^26.6.3",
+    "markdownlint-cli": "^0.28.1",
+    "prettier": "^2.2.1"
   }
 }

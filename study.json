@@ -1,12 +1,16 @@
 {
+  "--port": 4017,
   "study": {
     "save": true,
     "eval": true,
     "loopGuard": true,
     "variables": true,
     "flowchart": true,
-    "table": true,
+    "table": "values",
     "blanks": true,
-    "tests": [".test.js"]
+    "tests": [".test.js"],
+    "eslint": true,
+    "openIn": true,
+    "ask": true
   }
 }
