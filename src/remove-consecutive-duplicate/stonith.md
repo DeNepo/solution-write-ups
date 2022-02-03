@@ -17,7 +17,7 @@ const removeConsecutiveDuplicates02 = s => s.replace(/\b(\w+)(?: \1)+\b/g, '$1')
 
 ## Possible Refactors
 
--  group a word unit. use`\S`, some wired spelling, not from a real word, will included.
+-  group a word unit. use`\S`, some weird spelling, not from a real word, will included.
 
 ## References
 
