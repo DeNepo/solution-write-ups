@@ -2,9 +2,6 @@
   "plugins": [
     "jsdoc",
     "prefer-arrow",
-    "prettier",
-    "filenames",
-    "folders",
     "sonarjs"
   ],
   "parserOptions": {
@@ -43,7 +40,6 @@
   "extends": [
     "eslint:recommended",
     "airbnb-base",
-    "prettier",
     "plugin:sonarjs/recommended"
   ],
   "rules": {
@@ -84,14 +80,10 @@
     ],
     "camelcase": [2, { "properties": "never" }],
 
-    "prettier/prettier": ["error"],
 
     "prefer-arrow/prefer-arrow-functions": ["warn"],
 
     "sonarjs/prefer-immediate-return": 0,
-
-    "folders/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-]+$", "src"],
-    "filenames/match-regex": [2, "^(?!.*([-])\\1{1})[a-z-.spec]+$"],
 
     "jsdoc/check-alignment": 1,
     "jsdoc/check-indentation": 1,
