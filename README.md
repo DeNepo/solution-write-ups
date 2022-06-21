@@ -222,7 +222,7 @@ example to see what this might look like.
 To run the tests from different platforms in your `sandbox.test.js` file, you
 will need to refactor the test cases from whatever format they are in to use
 `describe`, `it` and `expect`. This will take some practice but will become a
-routine task. Check out the [./refactoring-tests.mp4](./refactoring-tests.mp4)
+routine task. Check out the [./refactoring-tests.mp4](./example-quarter-of-the-year/refactoring-tests.mp4)
 to see it live, here are the examples from the video:
 
 <details>
@@ -299,7 +299,7 @@ and write documentation, how to understand source code, how to interpret test
 cases, and how to explain your code to others.
 
 For each challenge you study create a _new_ folder file in this repository with
-a README created from [this template](./template-write-up.md). Take a look at
+a README created from [this template](./template-write-up). Take a look at
 [the example write-up](./example-quarter-of-the-year) to see what yours might
 look like. But don't stop there! you can fill each challenge's folder with any
 notes or resources you found helpful: screen shots of the debugger or JS tutor,
