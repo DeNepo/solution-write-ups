@@ -1,68 +1,56 @@
 # [challengeName](link-to-challenge)
 
-<!--
-  describe the function's behavior in your own words.
-  explain why someone might want to use this function
--->
+Creating a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
 
 ## Syntax
 
-> functionName(`type`, `type`, ...) -> `type`
+> addUp(`number`) -> `number`
 
 ### Parameters
 
-**paramName**: `paramType`
+**num**: `number`
 
-<!--
-  describe the parameter
--->
+- A positive number
 
-### Return Value: `type`
+### Return Value:`number`
 
-<!--
-  describe the return value
--->
-
+- A Final value in which all the numbers from 1 to the 'num' are added.
 ## Test Cases
 
-<!--
-  copy in the test cases from the original challenge
 
-  if you write your own test cases in a sandbox file, include those too
--->
+describe('Basic Tests', () => {
+  Test.assertEquals(addUp(3), 6);
+  Test.assertEquals(addUp(4), 10);
+  Test.assertEquals(addUp(53), 1431);
+});
+
+describe(`${solution.name}: addUp`, () => {
+    describe('Add up the numbers', () => {
+      it('1 -> 1', () => expect(solution(1)).toEqual(1));
+      it('2 -> 3', () => expect(solution(2)).toEqual(3));
+      it('4 -> 10', () => expect(solution(4)).toEqual(10));
+      it('13 -> 91', () => expect(solution(13)).toEqual(91));
+      it('999 -> 499500', () => expect(solution(999)).toEqual(499500));
+      it('23 -> 276', () => expect(solution(23)).toEqual(276));
+    });
+  });
 
 ## Use Cases
 
-<!--
-  write a minimum of 2 use cases to show this functions behavior.
-
-  try to find interesting _edge cases_, it's good for you ;)
-  an edge case is when a function behaves different than you'd expect.
-  This will help you and others better understand the function.
-
-  https://www.geeksforgeeks.org/dont-forget-edge-cases/
--->
-
+const num = 3;
+const result = addUp(num);
+console.log(result); // 6
 ---
 
 ## Retrospective
 
-<!--
-  write any notes to help you review this exercise later, and to help others' study it.
-
-  this might include:
-
-  - good ideas to use later in your own code
-  - less good ideas to avoid in your own code
-  - new vocabulary you learned
-  - the most important thing(s) you learned
-  - something that you still don't understand but want to keep studying
-  - something that surprised you
-  - tricks you will want to remember and use later
--->
-
 ### Continue Doing
+
+- practice more
 
 ### Start Doing
 
+- understand the logic and give your own output
+
 ### Stop Doing
+  - Do not rush into the code. understand first.
