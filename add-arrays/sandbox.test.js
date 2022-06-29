@@ -57,7 +57,7 @@ for (const solution of [addArrays, addArrays1, addArrays2, addArrays3]) {
       });
       describe('when arrays have different length it should throw error', () => {
         it('arrays have different length', () => {
-          expect(solution(['a', 'b'], ['a', 'b', 'c'])).toThrowNewError('Arrays should have same length');
+          expect(() => solution(['a', 'b'], ['a', 'b', 'c'])).toThrowError();
         });
       });
     });
