@@ -14,7 +14,7 @@
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --ignore docs --config ./.markdownlint.jsonc --fix ./ ",
     "spell-check": "cspell  './**'",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests "
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests --coverage"
   },
   "author": "HackYourFutureBelgium",
   "license": "MIT",
