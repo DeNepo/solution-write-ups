@@ -1,7 +1,9 @@
 # [Cahnge hours and minutes to seconds](https://edabit.com/challenge/JesaFi5ntBEbGT8bu)
 
-<!-- Discription : This function allows you to input two positive number as arguments, where the first argument is a considered an hour and the second number is considered minute and the output is number which is considered seconds.
--->
+- Discription : This function allows you to input two positive number as
+  arguments, where the first argument is a considered an hour and the second
+  number is considered minute and the output is number which is considered
+  seconds.
 
 ## Syntax
 
@@ -11,29 +13,24 @@ changeSeconds(x,y) =>{}
 
 ## Return Value : 'numbers'
 
-<!-- The out put is the hour from the hour input plus the minutes from the minute input converted in to seconds-->
+The out put is the hour from the hour input plus the minutes from the minute
+input converted in to seconds
 
 ## The code
 
-function secondsChange(hours, minutes) { if (hours < 0) { return 'Not a valid
-number'; } else if (minutes < 0) { return 'Not a valid number'; } else if
-(typeof minutes !== 'number') { return 'Not a number'; } else if (typeof hours
-!== 'number') { return 'Not a number'; } else { const timeInSeconds = hours _ 60
-_ 60 + minutes \* 60;
+`function secondsChange(hours, minutes) { if (hours < 0) { return 'Not a valid
+number'; } else if (minutes < 0) { return 'Not a valid number'; } else if(typeof
+minutes !== 'number') { return 'Not a number'; } else if (typeof hours!==
+'number') { return 'Not a number'; } else { const timeInSeconds = hours *60
+*60 + minutes \* 60;
 
     return timeInSeconds;
 
-} }
+} }`
 
 ## Test cases
 
-test('changes the numbers in to seconds', () => { expect(secondsChange(5,
-5)).equal(18300); expect(secondsChange(5, 0)).equal(18000);
-expect(secondsChange(-5, -5)).equal("Not a valid number");
-expect(secondsChange(-5, 5)).equal("Not a valid number");
-expect(secondsChange(5, -5)).equal("Not a valid number");
-expect(secondsChange(5, 'a')).equal("Not a number"); expect(secondsChange('A',
-5)).equal("Not a number"); })
+`test('changes the numbers in to seconds', () => { expect(secondsChange(5, 5)).equal(18300); expect(secondsChange(5, 0)).equal(18000); expect(secondsChange(-5, -5)).equal("Not a valid number"); expect(secondsChange(-5, 5)).equal("Not a valid number"); expect(secondsChange(5, -5)).equal("Not a valid number"); expect(secondsChange(5, 'a')).equal("Not a number"); expect(secondsChange('A', 5)).equal("Not a number"); })`
 
 ## Use cases
 
